@@ -22,6 +22,7 @@ const options = {
     servers: [
       { url: 'http://localhost:3000', description: 'Local' },
       { url: '/', description: 'Current host' },
+      { url: 'https://reviewloop-backend.onrender.com/', description: 'Production' },
     ],
     components: {
       securitySchemes: {
